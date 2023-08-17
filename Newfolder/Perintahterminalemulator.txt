@@ -1,0 +1,20 @@
+Ikuti video nya dengan teliti dan untuk code nya di sini
+
+
+1. Copy file uboot.bin ke folder download
+2. buka terminal emulator (masukin sdcardnya dulu baru buka terminal)
+3. ketikkan perintah di bawah ini per baris
+4. su
+5. jika muncul notif klik grade/terima intinya(cek di video)
+6. cd sdcard/Download
+7. ls
+8. Jika ada file uboot.bin nya lanjut
+9. dd if=uboot.bin of=/dev/block/bootloader
+10. reboot update
+
+kalau sudah nanti stb akan reboot dan masuk ke menu hitam dan ada tulisan banyak sesuai di video
+jika tidak muncul matikan stb dan jalankan ulang
+
+tunggu sekitar 10/20 menit sampai wifi stb nyala
+catatan: untuk tipe B860H V2 wifi nya off wajib make router
+
